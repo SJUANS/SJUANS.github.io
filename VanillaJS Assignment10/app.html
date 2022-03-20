@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My desktop diary on Chrome</title>
+    <link rel="stylesheet" href="src/style.css"/>
+</head>
+<body>
+<script src="src/randombackground.js"></script>
+    <div id="main">
+        <h4 id="clock-date" style="font-size: 20px;">mm/dd/yyyy</h4>
+        <div id="Weather" style="font-size: large;">
+            <span></span>
+            <span>loading your geolocation</span>
+        </div>
+        <h1 id="clock-time" style="font-size: 50px;">00:00:00</h1>
+        <form id="greeting_form" class="hidden">
+            <h2 id="greeting_message" style="font-size: 30px;">Hello, stranger. What can I call you?</h2>
+            <input id="input_username" type="text" placeholder="Type here."/>
+            <button id="submitbtn_username" class="hidden" type="submit"></button>    
+        </form>
+        <button id="forget_me" class="hidden">Delete my name</button>
+    </div>    
+    <div id="todolist_area" class="hidden">
+        <p style="font-size: 20px;">To do list✔</p>  
+        <ul id="todolist">
+        </ul>    
+        <form id="form_new_todo">
+            <input type="text" id="input_new_todo" placeholder="add todo">
+            <button id="submitbtn_new_todo" class="hidden" type="submit"></button>  
+        </form>
+    </div>
+<script src="src/geolocation.js"></script>
+<script src="src/clock.js"></script>
+<script src="src/greetings.js"></script>
+<script src="src/todolist.js"></script>
+</body>
+</html>

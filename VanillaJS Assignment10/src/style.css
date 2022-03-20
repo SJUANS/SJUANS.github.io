@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
+
+*{
+    font-family: 'Gowun Batang', serif;
+}
+
+body { 
+    background-size: cover;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#main {
+    display: block;
+    width: 800px;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(232, 232, 232, 0.75);
+    border-radius: 30px;
+}
+
+#input_username {
+    font-size: 30px; 
+    font-style: italic;
+    text-align: center; 
+    border-color: transparent; 
+    background-color: rgba(191,191,191, 0.5);
+}
+
+#forget_me {
+    font-size: 15px;
+    background-color: transparent;
+    border: 0px;
+    color: rgba(149, 165, 166);
+} 
+
+#todolist_area {
+    display: block;
+    width: 400px;
+    margin: auto;
+    padding-bottom: 20px;
+    float: bottom;
+    text-align: center;
+    background-color: rgba(232, 232, 232, 0.75);
+    border-radius: 15px;
+}
+
+#input_new_todo {
+    font-size: 20px; 
+    text-align: center; 
+    border-color: transparent; 
+    background-color: rgba(191,191,191, 0.5);
+}
+
+/* #Weather {
+    font-size: large;
+    color: whitesmoke;
+    width: 300px;
+    position: relative;
+    top: 140px;
+    left: 675px;
+} */
